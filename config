@@ -1,0 +1,18 @@
+[core]
+	bare = false
+	filemode = false
+	symlinks = false
+	ignorecase = true
+	logallrefupdates = true
+[core]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = https://github.com/darkslake/PS4-Playground-4.00-fix-by-darkslake.git
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[gui]
+	wmstate = normal
+	geometry = 875x424+562+155 171 192
