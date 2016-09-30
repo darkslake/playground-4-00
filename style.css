@@ -1,0 +1,320 @@
+
+body {
+	background: #000000;
+	font-family: tahoma, arial;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+* html body {
+	line-height: 13px;
+}
+
+a:link { 
+	color: #E7B12D;
+	font-weight: bold;
+	text-decoration: none;
+}
+	
+a:visited { 
+	color: #E7B12D;
+	font-weight: bold;
+	text-decoration: none;	
+}
+	
+a:hover, a:active { 
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#footer a:link { 
+	color: #92E80B;
+	font-weight: bold;
+	text-decoration: none;
+}
+	
+#footer a:visited { 
+	color: #92E80B;
+	font-weight: bold;
+	text-decoration: none;	
+}
+	
+#footer a:hover, #footer a:active { 
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#nav a:link { 
+	background: url(images/btn-bg.gif) no-repeat;
+	color: #C7C6C6;
+	display: block;
+	font-size: 10px;
+	font-weight: bold;
+	height: 20px;
+	padding-top: 6px;
+	text-align: center;
+	text-decoration: none;
+	width: 71px;
+}
+	
+#nav a:visited { 
+	background: url(images/btn-bg.gif) no-repeat;
+	color: #C7C6C6;
+	display: block;
+	font-size: 10px;
+	font-weight: bold;
+	height: 20px;
+	padding-top: 6px;
+	text-align: center;
+	text-decoration: none;
+	width: 71px;	
+}
+	
+#nav a:hover, #nav a:active { 
+	background: url(images/btn-bg.gif) no-repeat;
+	color: #FFFFFF;
+	display: block;
+	font-size: 10px;
+	font-weight: bold;
+	height: 20px;
+	padding-top: 6px;
+	text-align: center;
+	text-decoration: none;
+	width: 71px;
+}
+
+#bottom {
+	background: url(images/main-bottom.jpg) no-repeat;
+	clear: both;
+	display: block;
+	height: 236px;
+	width: 820px;
+}
+
+#container {
+	margin: 0 auto;
+	text-align: left;
+	width: 820px;
+}
+
+#contenttr {
+	background: url(images/top-right-bg.jpg) no-repeat;
+	color: #BBD2A8;
+	display: block;
+	height: 355px;
+	padding-left: 30px;
+	padding-top: 30px;
+	width: 558px;
+}
+
+#csoon {
+	background: url(images/c-soon-bg.jpg) no-repeat;
+	color: #B7B7B7;
+	float: left;
+	display: block;
+	height: 157px;
+	margin-left: 15px;
+	margin-top: 60px;
+	padding-left: 35px;
+	padding-top: 15px;
+	width: 134px;
+}
+
+#deal {	
+	margin-top: 30px;
+	width: 588px;
+}
+
+#dealleft {
+	float: left;
+	padding-top: 10px;
+	width: 160px;
+}
+
+#dealright {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 300px;
+}
+
+#footer {
+	clear: both;
+	color: #FFFFFF;
+	padding-left: 200px;
+	width: 620px;
+}
+
+* html #footer {
+	padding-left: 210px;
+	width: 610px;
+}
+
+#footer ul {
+	list-style: none;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0;
+}
+
+#footer li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	margin-right: 20px;
+	padding: 0;
+}
+
+#header {
+	width: 820px;
+}
+
+#logo {	
+	background: url(images/main-left.jpg) no-repeat;
+	display: block;
+	float: left;
+	height: 426px;
+	width: 215px;
+}
+
+#nav {
+	margin-bottom: 10px;
+	margin-top: 10px;	
+	width: 588px;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0;
+}
+
+#nav li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	margin-right: 20px;
+	padding: 0;
+}
+
+#player {
+	float: left;
+	display: block;
+	height: 105px;
+	margin-left: 25px;
+	margin-top: 78px;
+	width: 106px;
+}
+
+* html #player {
+	margin-left: -22px;
+}
+
+#screenshots {
+	background: url(images/ss-bg.jpg) no-repeat;
+	display: block;
+	float: right;
+	height: 132px;
+	margin-left: 28px;
+	margin-right: 80px;
+	padding-left: 20px;
+	padding-top: 35px;
+	width: 177px;
+}
+
+* html #screenshots {
+	margin-right: 40px;
+}
+
+#topright {
+	float: left;
+	width: 588px;
+}
+
+#videobox {
+	background: url(images/video-box-bg.jpg) no-repeat;
+	display: block;
+	float: left;
+	height: 120px;
+	padding-left: 20px;
+	padding-top: 15px;
+	margin-left: 20px;
+	margin-top: 80px;
+	width: 391px;
+}
+
+#videobox ul {
+	list-style: none;
+	margin: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+#videobox li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	margin-right: 50px;
+	padding: 0;
+}
+
+/* ------------------------------------------------- CLASE'S --- */
+
+.calign {
+	margin-left: 110px;
+}
+
+.heading {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.heading2 {
+	color: #E7B12D;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ss1 {
+	float: left;
+	margin-bottom: 5px;
+}
+
+.ss2 {
+	float: left;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.ss3 {
+	clear: both;
+	float: left;
+}
+
+.ss4 {
+	float: left;
+	margin-left: 5px;
+}
+
+.play {
+	margin-left: 115px;
+	margin-top: 10px;
+}
+
+.player1 {
+	float: left;
+}
+
+.video {
+	float: left;
+	margin-right: 14px;
+}
